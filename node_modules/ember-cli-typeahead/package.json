@@ -1,0 +1,71 @@
+{
+  "name": "ember-cli-typeahead",
+  "version": "1.0.2",
+  "description": "A type ahead box using twitter's type ahead",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ember server",
+    "build": "ember build",
+    "test": "ember test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squirelabs/ember-typeahead"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "ember-addon",
+    "typeahead",
+    "type-ahead",
+    "autocomplete"
+  ],
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  },
+  "author": {
+    "name": "Nico Gevers"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/squirelabs/ember-typeahead/issues"
+  },
+  "homepage": "https://github.com/squirelabs/ember-typeahead",
+  "devDependencies": {
+    "body-parser": "^1.2.0",
+    "broccoli-asset-rev": "0.0.17",
+    "broccoli-ember-hbs-template-compiler": "^1.6.1",
+    "connect-restreamer": "^1.0.0",
+    "ember-cli": "0.0.44",
+    "ember-cli-ember-data": "0.1.0",
+    "ember-cli-ic-ajax": "0.1.1",
+    "ember-cli-qunit": "0.0.5",
+    "express": "^4.8.5",
+    "glob": "^4.0.5"
+  },
+  "gitHead": "58d10445bf73c9642b49cb17587b9b9d2f87e40e",
+  "_id": "ember-cli-typeahead@1.0.2",
+  "_shasum": "b5cbb8f114df91eee00717837524188dbb112bda",
+  "_from": "ember-cli-typeahead@*",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "gevious",
+    "email": "ngevers@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "gevious",
+      "email": "ngevers@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "b5cbb8f114df91eee00717837524188dbb112bda",
+    "tarball": "http://registry.npmjs.org/ember-cli-typeahead/-/ember-cli-typeahead-1.0.2.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/ember-cli-typeahead/-/ember-cli-typeahead-1.0.2.tgz"
+}

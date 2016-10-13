@@ -1,0 +1,16 @@
+<h2 id='title'>Ember Typeahead component</h2>
+<p>This component is based on <a href="https://github.com/twitter/typeahead.js">Twitter's typeahead (v0.10.2)</a>.
+ It only makes use of the jquery plugin (not Bloodhound) and leaves the
+ implementation up to the developer.<br/>
+ Note: The stylesheet comes straight from the above link.</p>
+
+
+<h2>Demo</h2>
+<p>This demo uses Ember's documentation as the feed. It searches all titles and shows
+   a maximum of 5 in the dropdown. Selecting one will open a new window and display
+   the relevant page.</p>
+
+<h3>List of countries</h3>
+{{type-ahead class="typeahead" placeholder="Search countries"
+             name="countries" highlight=true
+             content=content}}

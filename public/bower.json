@@ -1,0 +1,15 @@
+{
+  "name": "flavisur",
+  "version": "0.1.0",
+  "description": "paquetes del frontend",
+  "authors": [
+    "edwin calcina"
+  ],
+  "license": "MIT",
+  "homepage": "flavisur",
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "bootstrap-material-design": "~0.3.0",
+    "eonasdan-bootstrap-datetimepicker": "~4.7.14"
+  }
+}
